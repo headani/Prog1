@@ -39,7 +39,7 @@ int main()
 
 	Polygon poly;
 	poly.add(origo);
-	poly.add(Point{ 700,250 });
+	poly.add(Point{ 600,250 });
 	poly.add(Point{ 150,250 });
 	poly.set_color(Color::dark_blue);
 	poly.set_style(Line_style::dash);
